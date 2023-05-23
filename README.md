@@ -1,6 +1,8 @@
 # SwiftKeychain
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
+> Original code is forked from <https://github.com/yankodimitrov/SwiftKeychain>
+
 ## Abstract
 Swift wrapper for working with the Keychain API implemented with Protocol Oriented Programming.
 
