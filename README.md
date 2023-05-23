@@ -1,5 +1,4 @@
 # SwiftKeychain
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 > Original code is forked from <https://github.com/yankodimitrov/SwiftKeychain>
 
@@ -93,18 +92,6 @@ SwiftKeychain requires Swift 3.0 and Xcode 8.2 and supports iOS 8, OS X 10.10, w
 
 #### Manually
 Copy the `Keychain/Keychain.swift` file to your project.
-
-#### Carthage
-Add the following line to your [Cartfile](https://github.com/carthage/carthage)
-```swift
-github "yankodimitrov/SwiftKeychain" "master"
-```
-
-#### CocoaPods
-Add the following line to your [Podfile](https://guides.cocoapods.org/)
-```swift
-pod “SwiftKeychain”
-```
 
 ## License
 SwiftKeychain is released under the MIT license. See the [LICENSE.txt](LICENSE.txt) file for more info.
