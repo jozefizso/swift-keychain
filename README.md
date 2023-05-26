@@ -1,5 +1,26 @@
 # SwiftKeychain
 
+> Keychain access library implemented in Swift with protocol oriented programming.
+
+## Installation
+
+SwiftKeychain targets Swift 3.0 with Xcode 8.2 and supports iOS 8, OS X 10.10, watchOS 2 and tvOS 9.
+
+### Swift Package Manager
+
+Add `Keychain` package as a dependency to your project:
+
+```swift
+// Package.swift
+import PackageDescription
+
+let package = Package(
+    name: "MyTool",
+    dependencies: [
+        .Package(url: "https://github.com/jozefizso/swift-keychain.git", majorVersion: 1),
+    ]
+)
+```
 
 ## Abstract
 
@@ -74,12 +95,6 @@ do {
     print(error)
 }
 ```
-
-## Installation
-SwiftKeychain requires Swift 3.0 and Xcode 8.2 and supports iOS 8, OS X 10.10, watchOS 2 and tvOS 9.
-
-#### Manually
-Copy the `Keychain/Keychain.swift` file to your project.
 
 ## License
 
